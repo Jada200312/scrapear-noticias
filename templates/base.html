@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>📰 Noticias Clasificadas</h1>
+        <nav>
+            <a href="/">Inicio</a>
+            <a href="/categoria/Política">Política</a>
+            <a href="/categoria/Economía">Economía</a>
+            <a href="/categoria/Deportes">Deportes</a>
+            <a href="/categoria/Tecnología">Tecnología</a>
+            <a href="/categoria/Opinión">Opinión</a>
+        </nav>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>
