@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Últimas Noticias</h2>
+<div class="noticias-grid">
+    {% for noticia in noticias %}
+    <div class="noticia-card">
+        {% if noticia.imagen and "http" in noticia.imagen %}
+            <img src="{{ noticia.imagen }}" alt="Imagen de la noticia">
+        {% endif %}
+        <h3>{{ noticia.titulo }}</h3>
+        <p><strong>Fuente:</strong> {{ noticia.fuente }}</p>
+        <p><strong>Fecha:</strong> {{ noticia.fecha_publicacion }}</p>
+        {% if "http" not in noticia.descripcion and "www." not in noticia.descripcion %}
+        <p class="descripcion">{{ noticia.descripcion }}</p>
+        {% endif %}
+        <a href="{{ noticia.url }}" target="_blank">Leer más</a>
+    </div>
+    {% endfor %}
+</div>
+
+<div class="paginacion">
+    {% if page > 1 %}
+        <a href="?page={{ page - 1 }}">Anterior</a>
+    {% endif %}
+    <span>Página {{ page }} de {{ total_paginas }}</span>
+    {% if page < total_paginas %}
+        <a href="?page={{ page + 1 }}">Siguiente</a>
+    {% endif %}
+</div>
+{% endblock %}
