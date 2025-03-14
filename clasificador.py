@@ -1,4 +1,4 @@
-import google.generativeai as genai # Importar la librería de Gemini
+import google.generativeai as genai
 import os
 import pymongo
 
