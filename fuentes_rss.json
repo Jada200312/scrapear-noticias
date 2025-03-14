@@ -1,0 +1,62 @@
+[
+  {
+    "nombre_fuente_rss": "El Tiempo - Colombia",
+    "url_rss": "https://www.eltiempo.com/rss/colombia.xml"
+  },
+  {
+    "nombre_fuente_rss": "El Espectador - Nacional",
+    "url_rss": "https://www.elespectador.com/rss/colombia/"
+  },
+  {
+    "nombre_fuente_rss": "Semana - Últimas Noticias",
+    "url_rss": "https://www.semana.com/arc/outboundfeeds/rss/category/actualidad/"
+  },
+  {
+    "nombre_fuente_rss": "RCN Radio - Nacional",
+    "url_rss": "https://www.rcnradio.com/rss/nacional"
+  },
+  {
+    "nombre_fuente_rss": "La FM - Economía",
+    "url_rss": "https://www.lafm.com.co/rss/economia"
+  },
+  {
+    "nombre_fuente_rss": "El Colombiano - Tecnología",
+    "url_rss": "https://www.elcolombiano.com/rss/tecnologia"
+  },
+  {
+    "nombre_fuente_rss": "CNN - World",
+    "url_rss": "http://rss.cnn.com/rss/edition_world.rss"
+  },
+  {
+    "nombre_fuente_rss": "BBC News - Mundo",
+    "url_rss": "https://feeds.bbci.co.uk/news/world/rss.xml"
+  },
+  {
+    "nombre_fuente_rss": "ESPN - NBA",
+    "url_rss": "https://www.espn.com/espn/rss/nba/news"
+  },
+  {
+    "nombre_fuente_rss": "ESPN - MLB",
+    "url_rss": "https://www.espn.com/espn/rss/mlb/news"
+  },
+  {
+    "nombre_fuente_rss": "El Pais - Internacional",
+    "url_rss": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/internacional/portada"
+  },
+  {
+    "nombre_fuente_rss": "El Pais - Deporte",
+    "url_rss": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/deportes/portada"
+  },
+  {
+    "nombre_fuente_rss": "Champions league",
+    "url_rss": "https://www.futbolred.com/rss-news/champions-league.xml"
+  },
+  {
+    "nombre_fuente_rss": "Liga Betplay",
+    "url_rss": "https://www.futbolred.com/rss-news/futbol-colombiano/liga-aguila.xml"
+  },
+  {
+    "nombre_fuente_rss": "Colombianos en el exterior",
+    "url_rss": "https://www.futbolred.com/rss-news/colombianos-en-el-exterior.xmlxml"
+  }
+]
