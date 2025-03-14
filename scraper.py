@@ -17,6 +17,8 @@ collection = db[COLLECTION_NAME]
 
 collection.create_index([("url", pymongo.ASCENDING)], unique=True)
 
+base_dir = os.path.dirname(os.path.abspath(__file__))
+json_path = os.path.join(base_dir, "fuentes_rss.json")
 
 def obtener_noticias(fuente):
     nombre = fuente["nombre_fuente_rss"]
@@ -50,8 +52,6 @@ def obtener_noticias(fuente):
         print(f"⚠️ No se encontraron noticias nuevas en {nombre}")
 
 
-base_dir = os.path.dirname(os.path.abspath(__file__))
-json_path = os.path.join(base_dir, "fuentes_rss.json")
 
 def ejecutar_scraping():
     with open(json_path, "r", encoding="utf-8") as file:
